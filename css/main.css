@@ -1,0 +1,248 @@
+@import "defoult.css";
+
+
+section{
+    width: 100%;
+    height: max-content;
+    margin: 45px auto;
+    padding: 50px;
+}
+
+.container{
+    padding: 8px;
+}
+
+.row_2{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top_bar{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.list_horizontal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list_horizontal li{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top_bar .list_horizontal{
+    justify-content: center;
+}
+
+.top_bar .list_horizontal li a{
+    color: #ffff;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.top_bar .icon_item{
+    height: 20px;
+    width: 20px;
+}
+
+.bottom_bar{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black 0 1px 3px;
+}
+
+.bottom_bar .list_horizontal li a{
+    color: #000000;
+    font-family: "eUkraineMedium", sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.bottom_bar .icon_item{
+    height: 25px;
+    width: 25px;
+}
+
+
+.bottom_ba .list_horizontal{
+    justify-content: start;
+}
+
+.logo_company{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_company .dia, .gerb{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dia{
+    height: 60px;
+    width: 60px;
+}
+
+.gerb{
+    height: 48px;
+    width: 38px;
+}
+
+.border_logo{
+    border: solid black;
+    border-width: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+}
+
+.content_company{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.name_company{
+    color: #000;
+    font-family: "eUkraineHeadBold" , sans-serif;;
+    font-size: 25px;
+}
+
+.discrtiption_name_company{
+    color: #000;
+    font-family: "eUkraineThin" , sans-serif;;
+    font-size: 14px;
+    text-align: center;
+}
+
+.colum_line{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.colum_line .create_line_blue{
+    height: 25px;
+    border-left: 3px solid #0003c5;
+}
+
+.colum_line .create_line_yellow{
+    height: 25px;
+    border-left: 3px solid #ffe600;
+}
+
+.title_block h3{
+    width: max-content;
+    height: max-content;
+    font-family: "eUkraineHeadBold" , sans-serif;;
+    font-size: 55px;
+    color: #000000;
+}
+
+.title_block{
+    width: 80px;
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 5px;
+}
+
+.card_list_news{
+    width: 500px;
+    padding: 35px;
+    height: max-content;
+    border-radius: 20px;
+    box-shadow: black 0 1px 2px;
+    background-color: #F9F9F9;
+}
+
+.card_list_news a{
+    color: #000;
+    font-family: "eUkraineThin" , sans-serif;;
+    font-size: 18px;
+}
+
+.item_list_news{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card_list_navigations{
+    width: 100%;
+    height: max-content;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_lite_white{
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "eUkraineHeadLight" , sans-serif;;
+    font-size: 15px;
+}
+
+.post_card_larg{
+    width: max-content;
+    height: min-content;
+    background-color: #F9F9F9;
+    box-shadow: black 0 1px 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.image_post_card_larg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_post_card_larg{
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title_post_card_larg{
+    padding: 15px;
+}
+
+.title_post_card_larg h4{
+    color: #000;
+    font-family: "eUkraineHeadMedium" , sans-serif;;
+    font-size: 25px;
+}
+
+.sotial_club_post_card_larg{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+.sotial_club_post_card_larg a{
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+}
