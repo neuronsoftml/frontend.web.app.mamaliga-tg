@@ -39,6 +39,10 @@ section{
     padding-right: 25px;
 }
 
+.item_link_nav_bar:hover{
+    border-bottom: #000000 solid 2px;
+}
+
 .top_bar .list_horizontal{
     justify-content: center;
 }
@@ -50,6 +54,10 @@ section{
     font-size: 14px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.short_description{
+    width: 650px;
 }
 
 .top_bar .icon_item{
@@ -97,13 +105,13 @@ section{
 }
 
 .dia{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .gerb{
-    height: 48px;
-    width: 38px;
+    height: 38px;
+    width: 28px;
 }
 
 .border_logo{
@@ -115,20 +123,20 @@ section{
 }
 
 .content_company{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .name_company{
     color: #000;
     font-family: "eUkraineHeadBold" , sans-serif;;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .discrtiption_name_company{
     color: #000;
     font-family: "eUkraineThin" , sans-serif;;
-    font-size: 14px;
+    font-size: 11px;
     text-align: center;
 }
 
@@ -170,10 +178,10 @@ section{
     height: max-content;
     border-radius: 20px;
     box-shadow: black 0 1px 2px;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
 }
 
-.card_list_news a{
+.card_list_news .item_list_news a{
     color: #000;
     font-family: "eUkraineThin" , sans-serif;;
     font-size: 18px;
@@ -201,29 +209,48 @@ section{
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: "eUkraineHeadLight" , sans-serif;;
-    font-size: 15px;
+    font-family: "eUkraineMedium", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
 }
+
+.btn_lite_white:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
 
 .post_card_larg{
     width: max-content;
     height: min-content;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     box-shadow: black 0 1px 2px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+}
+
+.post_card_larg a{
+    text-decoration: none;
+}
+
+.date_post_card_larg{
+    padding-left: 15px;
 }
 
 .image_post_card_larg{
-    width: 100%;
+    width: 700px;
     display: flex;
     justify-content: center;
+
 }
 
-.image_post_card_larg{
+.image_post_card_larg img{
     height: 350px;
+    width: max-content;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit:cover;
 }
 
 .title_post_card_larg{
@@ -236,13 +263,170 @@ section{
     font-size: 25px;
 }
 
-.sotial_club_post_card_larg{
+.social_club_post_card_large{
     display: flex;
     justify-content: right;
     padding: 15px;
 }
-.sotial_club_post_card_larg a{
-    padding: 5px;
+
+.social_club_post_card_large a{
     height: 35px;
     width: 35px;
+    margin: 5px;
+}
+
+.list_document_category ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: end;
+    padding-left: 0px;
+}
+
+.list_document_category ul li{
+    padding: 10px;
+}
+
+.list_document_category .item_category_document{
+    color: #666666;
+    font-weight: normal;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+}
+
+.list_document_category .item_category_document:hover{
+    color: #666666;
+    font-weight: bold;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+    border-bottom: solid 2px #666666;
+}
+
+.list_document_category ul li .active_item_category_document{
+    color: #000000;
+    font-weight: bold;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+    border-bottom: solid 2px #000000;
+    font-size: 18px;
+}
+
+.btn_small_black{
+    color: #ffffff;
+    font-weight: normal;
+    font-family: "eUkraineLight", sans-serif;
+    border-radius: 20px;
+    background-color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn_small_black:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px black;
+}
+
+
+.list_years_document ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: end;
+    padding-left: 0px;
+}
+
+.list_years_document ul li{
+    padding: 10px;
+}
+
+.list_years_document .item_years_document{
+    color: #666666;
+    font-weight: normal;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+}
+
+.list_years_document .item_years_document:hover{
+    color: #666666;
+    font-weight: bold;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+    border-bottom: solid 2px #666666;
+}
+
+.list_years_document ul li .active_item_years_document{
+    color: #000000;
+    font-weight: bold;
+    font-family: "eUkraineLight", sans-serif;;
+    text-decoration: none;
+    border-bottom: solid 2px #000000;
+    font-size: 18px;
+}
+
+.item_info_title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list_document{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list_document a{
+    text-decoration: none;
+    color: black;
+}
+
+.item_link_document {
+    flex-basis: 45%;
+    padding: 10px;
+    border: 2px solid transparent; /* Потрібно для відображення градієнта */
+    border-image: linear-gradient(to right, #B5D39D, #F1ACAC, #BF98C6, #7179EF, #2833D0) 1 1 stretch;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo_doc{
+    padding: 5px;
+}
+
+.logo_download{
+    padding: 5px;
+}
+.item_link_document, .logo_download{
+    justify-content: end;
+}
+
+.item_info_document {
+    margin-bottom: 0;
+}
+
+.item_info_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "eUkraineRegular", sans-serif;
+    text-align: start;
+}
+
+.item_info_doctor,
+.item_info_date {
+    font-family: "eUkraineRegular", sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
 }
