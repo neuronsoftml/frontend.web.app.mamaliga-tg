@@ -20,6 +20,22 @@ section{
     justify-content: space-between;
 }
 
+.row{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.clock_p{
+    color: #666666;
+    font-size: 14px;
+    font-family: "eUkraineRegular", sans-serif;
+}
+
+
 .top_bar{
     margin: 0;
     padding: 0;
@@ -242,7 +258,6 @@ section{
     width: 700px;
     display: flex;
     justify-content: center;
-
 }
 
 .image_post_card_larg img{
@@ -424,9 +439,69 @@ section{
     text-align: start;
 }
 
-.item_info_doctor,
-.item_info_date {
+.item_info_doctor{
     font-family: "eUkraineRegular", sans-serif;
     font-size: 14px;
     margin-bottom: 0;
 }
+
+
+.card_shaking{
+    width: max-content;
+    height: min-content;
+    background-color: #ffffff;
+    box-shadow: black 0 1px 2px;
+    border-radius: 20px;
+}
+
+.card_shaking_all{
+    width: 300px;
+    height: 345px;
+    background-color: #000000;
+    box-shadow: black 0 1px 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_shaking_all a{
+    text-decoration: none;
+}
+
+.card_shaking_all h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "eUkraineRegular", sans-serif;
+    text-align: start;
+    color: #ffffff;
+    width: 150px;
+}
+.card_shaking_all img{
+    padding-left: 15px;
+}
+
+.card_shaking a{
+    text-decoration: none;
+}
+
+.card_shaking a .title_card_shaking h3{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "eUkraineRegular", sans-serif;
+    text-align: start;
+    color: black;
+}
+
+.image_card_shaking{
+    width: 300px;
+    height: 250px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title_card_shaking h3{
+    width: 280px;
+}
+
